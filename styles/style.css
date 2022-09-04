@@ -1,0 +1,98 @@
+:root{
+    --font: 'Courier New', courier , monospace ;
+    --color: #ffffffb9;
+    --bg-color:#06092d;
+    --background-color: #4158D0;
+   --background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    --bg-color-2:#8BC6EC;
+    --bg-color-4:#0093E9;
+    --bg-color-5:#FFDEE9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color-5);
+    overflow: hidden;
+}
+body::before{
+    content: '';
+    width: 22rem;
+    height: 22rem;
+    background-image: var(--background-image);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-200px ,-100px);
+}
+
+body::after{
+    content: '';
+    width: 15rem;
+    height: 15rem;
+    background-image: var(--background-image);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(150px ,100px);
+}
+.card{
+    width: 30rem;
+    height: 18rem;
+    background: rgba(255 ,255 ,255 , 0.2);
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2rem;
+    overflow: hidden    ;
+}
+.card-bank-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.card-bank-name{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.card-number{
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    top: 1rem;
+}
+.card-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.card-img{
+    width: 5rem;
+    height: 2rem;
+}
+.card-name{
+    font-size: 1.5rem;
+}
+.card-exp{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+}
+.card-exp-data{
+    font-size: 1.3rem;
+}
