@@ -1,6 +1,7 @@
 :root{
     --font: 'Courier New', courier , monospace ;
     --color: #ffffffb9;
+    --color-2:#8BC6EC;
     --bg-color:#06092d;
     --background-color: #4158D0;
    --background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
@@ -41,6 +42,7 @@ body::after{
     position: absolute;
     transform: translate(150px ,100px);
 }
+
 .card{
     width: 30rem;
     height: 18rem;
@@ -95,4 +97,9 @@ body::after{
 }
 .card-exp-data{
     font-size: 1.3rem;
+}
+.card-owner{
+    padding: 15px;
+   
+    
 }
