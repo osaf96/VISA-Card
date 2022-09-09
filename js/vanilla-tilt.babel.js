@@ -100,7 +100,7 @@ var VanillaTilt = function () {
 
   /**
    * Method set listen methods for this.elementListener
-   * @return {Node}
+    @return {Node}
    */
 
 
