@@ -327,7 +327,7 @@ var VanillaTilt = function () {
     this.updateCall = null;
   };
 
-  /**
+  /*
     Appends the glare element (if glarePrerender equals false)
     and sets the default style
    */
