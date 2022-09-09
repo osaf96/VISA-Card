@@ -72,7 +72,7 @@ var VanillaTilt = function () {
     return setting === "" || setting === true || setting === 1;
   };
 
-  /**
+  /*
     Method returns element what will be listen mouse events
     @return {Node}
    */
