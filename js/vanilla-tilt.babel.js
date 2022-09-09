@@ -73,8 +73,8 @@ var VanillaTilt = function () {
   };
 
   /**
-   * Method returns element what will be listen mouse events
-   * @return {Node}
+    Method returns element what will be listen mouse events
+    @return {Node}
    */
 
 
@@ -98,7 +98,7 @@ var VanillaTilt = function () {
     return this.element;
   };
 
-  /**
+  /*
     Method set listen methods for this.elementListener
     @return {Node}
    */
