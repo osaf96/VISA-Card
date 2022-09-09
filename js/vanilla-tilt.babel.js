@@ -329,7 +329,7 @@ var VanillaTilt = function () {
 
   /**
    * Appends the glare element (if glarePrerender equals false)
-   * and sets the default style
+    and sets the default style
    */
 
 
