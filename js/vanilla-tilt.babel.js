@@ -511,7 +511,7 @@ if (typeof document !== "undefined") {
   /* expose the class to window */
   window.VanillaTilt = VanillaTilt;
 
-  /**
+  /*
     Auto load
    */
   VanillaTilt.init(document.querySelectorAll("[data-tilt]"));
