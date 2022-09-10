@@ -8,7 +8,18 @@
     <title>VISA CARD</title>
 </head>
 <body>
-    <div class="card">
+ <div class="navbar"></div>
+    <nav class="nav">
+        <a href="#home" class="logo">Bank card</a>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">Bank</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+ <div class="hero">
+     <div class="card">
         
             <div class="card-bank-info">
                 <span class="card-bank-name">Bank</span>
@@ -25,11 +36,28 @@
             </div>
         
     </div>
+    <div class="card-owner">
+
+        <span class="title">owner</span>
+        <h2 class="owner">OSAF ALI</h2>
+        <div class="owner-details">
+            <span class="bank-name-title">BANK</span>
+            <h2 class="bank-name-subtitle">BANK OF USA</h2>
+        </div>
+        <div class="card-type">
+            <span class="card-type-title">CARD TYPE</span>
+            <h2 class="card-type-info">VISA CARD</h2>
+        </div>
+        
+    </div>
+</div>
     <script type="text/javascript" src="./js/vanilla-tilt.babel.js"></script>
     <script>
         VanillaTilt.init(document.querySelector(".card"), {
-		max: 25,
-		speed: 400
+		max: 20,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
 	});
 	
     </script>
