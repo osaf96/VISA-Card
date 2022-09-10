@@ -99,7 +99,12 @@ body::after{
     font-size: 1.3rem;
 }
 .card-owner{
-    padding: 15px;
-   
+    padding: 20px;
+    background-color:transparent;
+    backdrop-filter: blur(60px);
+  
+  
+    
+       
     
 }
