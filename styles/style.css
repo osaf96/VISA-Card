@@ -102,9 +102,4 @@ body::after{
     padding: 20px;
     background-color:  transparent;
     backdrop-filter: blur(60px);
-  
-  
-    
-       
-    
 }
