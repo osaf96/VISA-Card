@@ -101,5 +101,5 @@ body::after{
 .card-owner{
     padding: 20px;
     background-color:  transparent;
-    backdrop-filter: blur(60px);
+    /* backdrop-filter: blur(60px); */
 }
