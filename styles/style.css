@@ -51,11 +51,11 @@ body::after{
    font-style: var(--font);
    cursor: pointer;
    opacity: 1;
-   transition: 0.3s;
+   transition: font-size 1s linear;
 }
 .logo:hover{
     opacity: 0.7;
-    
+    font-size: 2rem;
 }
 .card{
     width: 30rem;
