@@ -42,6 +42,12 @@ body::after{
     position: absolute;
     transform: translate(150px ,100px);
 }
+.logo{
+    position: relative;
+    text-align: center;
+   
+
+}
 
 .card{
     width: 30rem;
