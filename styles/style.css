@@ -72,7 +72,7 @@ body::after{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 2rem;
-    overflow: hidden    ;
+    overflow: hidden ;
 }
 .card-bank-info{
     display: flex;
