@@ -135,5 +135,6 @@ body::after{
 .footer-link:hover{
   font-size: 1.2rem;
     cursor: pointer;
+    color: var(--text-color);
 
 }
