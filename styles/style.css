@@ -120,3 +120,6 @@ body::after{
     /* backdrop-filter: blur(60px); */
     cursor: pointer;
 }
+.footer__text{
+    text-align: center;
+}
