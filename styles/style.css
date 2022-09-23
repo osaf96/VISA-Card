@@ -8,6 +8,7 @@
     --bg-color-2:#8BC6EC;
     --bg-color-4:#0093E9;
     --bg-color-5:#FFDEE9;
+    --text-color-light:hsl(var(--hue-color), 12% , 65%)
 }
 *{
     margin: 0;
@@ -126,4 +127,5 @@ body::after{
 .footer-link{
     text-decoration: none;
     cursor: pointer;
+    color: ;
 }
