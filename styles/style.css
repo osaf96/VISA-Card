@@ -127,5 +127,6 @@ body::after{
 .footer-link{
     text-decoration: none;
     cursor: pointer;
-    color: ;
+    color: var(--text-color-light);
+    font-size: larger;
 }
