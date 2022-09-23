@@ -8,7 +8,8 @@
     --bg-color-2:#8BC6EC;
     --bg-color-4:#0093E9;
     --bg-color-5:#FFDEE9;
-    --text-color-light:hsl(var(--hue-color), 12% , 65%)
+    --text-color-light:hsl(var(--hue-color), 12% , 65%);
+    --text-color:hsl(var(--hue-color), 12% , 35%);
 }
 *{
     margin: 0;
