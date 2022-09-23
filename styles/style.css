@@ -128,8 +128,11 @@ body::after{
     text-decoration: none;
     cursor: pointer;
     color: var(--text-color-light);
-    font-size: 16px;
+    font-size: 1rem;
+    transition: font-size 0.4s;
 }
 .footer-link:hover{
+  font-size: 1.2rem;
+    cursor: pointer;
 
 }
