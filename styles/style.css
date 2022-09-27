@@ -11,11 +11,13 @@
     --text-color-light:hsl(var(--hue-color), 12% , 65%);
     --text-color:hsl(var(--hue-color), 12% , 35%);
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
