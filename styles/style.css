@@ -25,7 +25,9 @@ body{
     background-color: var(--bg-color-5);
     overflow: hidden;
 }
+
 /* card background bubbles */
+
 body::before{
     content: '';
     width: 22rem;
