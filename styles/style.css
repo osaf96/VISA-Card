@@ -54,7 +54,7 @@ body::after{
     text-align: center;
    text-decoration: none;
    color: var(--color);
-   font-size: 1.8rem;
+   font-size: 1.6rem;
    font-style: var(--font);
    cursor: pointer;
    opacity: 0.7;
